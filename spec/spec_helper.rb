@@ -2,9 +2,7 @@ require 'rspec'
 require 'mocha'
 require 'simplecov'
 
-SimpleCov.start do
-  add_filter 'run.rb'
-end
+SimpleCov.start
 
 RSpec.configure do |c|
   c.order = :rand

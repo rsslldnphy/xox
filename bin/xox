@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require './lib/xox'
 
 cli = XOX::CLI.new
